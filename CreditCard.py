@@ -1,7 +1,7 @@
 
 
 
-while 1 == 1:
+while True:
     cnlist = input("What is your credit card number? ")
     if cnlist.isdigit() and len(cnlist) == 16:
         cn = [int(x) for x in cnlist]
