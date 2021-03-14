@@ -1,6 +1,4 @@
 
-
-
 while True:
     cnlist = input("What is your credit card number? ")
     if cnlist.isdigit() and len(cnlist) == 16:
